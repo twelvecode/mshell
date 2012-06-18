@@ -41,5 +41,9 @@ class CommandFactory
                 throw new \Exception('Command not found - ' . $argv[1]);
             }
         }
+        else
+        {
+            throw new \Exception('No command specified');
+        }
     }
 } // CommandFactory
