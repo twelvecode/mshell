@@ -14,4 +14,5 @@ In order to use:
 
 ## License
 
-Should be embedded
+This software is licenced under "Mozilla Public License 2.0". Please refer
+to the `LICENSE.md` file containing the full licence information.
