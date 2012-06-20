@@ -2,7 +2,7 @@
 
 namespace TwelveCode\MShell;
 
-class CommandRunner
+class CommandRunner implements ICommandRunner
 {
     public static function run(ACommand $cmd)
     {

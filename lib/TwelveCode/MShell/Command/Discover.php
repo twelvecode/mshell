@@ -2,8 +2,6 @@
 
 namespace TwelveCode\MShell\Command;
 
-include_once (dirname(__FILE__) . '/../ACommand.php');
-
 use TwelveCode\MShell\ACommand;
 
 class Discover extends ACommand

@@ -3,6 +3,7 @@
 namespace TwelveCode\MShell;
 
 use TwelveCode\MShell\Command;
+use TwelveCode\MShell\Exception;
 
 class CommandFactory
 {
@@ -38,12 +39,13 @@ class CommandFactory
             }
             else
             {
-                throw new \Exception('Command not found - ' . $argv[1]);
+                throw new Exception\CommandNotFound('Command not found - ' . $argv[1]);
             }
         }
         else
         {
-            throw new \Exception('No command specified');
+            throw new Exception\CommandNotSpecified('No command specified');
         }
     }
+
 } // CommandFactory
